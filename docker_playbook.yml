@@ -1,0 +1,8 @@
+---
+- name: use galaxy docker role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: geerlingguy.docker
